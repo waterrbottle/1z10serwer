@@ -6,7 +6,7 @@ const MAX_LOBBIES = 1024;
 const PORT = process.env.PORT || 9080;
 const ALFNUM = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
 
-const NO_LOBBY_TIMEOUT = 1000;
+const NO_LOBBY_TIMEOUT = 5000;
 const SEAL_CLOSE_TIMEOUT = 10000;
 const PING_INTERVAL = 10000;
 
